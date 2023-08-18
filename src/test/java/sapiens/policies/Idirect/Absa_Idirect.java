@@ -15,7 +15,10 @@ public class Absa_Idirect extends WebDr {
         this.wdriver = wdriver;
         this.test = test;
     }
+
 /**Mvuleni commented on this code**/
+/**Push to Github now**/
+
     String sCampaignType = this.getValue("CampaignType");
     String sStuffIndicator = this.getValue("StuffIndicator");
     String sCategory = this.getValue("Category");
