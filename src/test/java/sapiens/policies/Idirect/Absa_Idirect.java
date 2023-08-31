@@ -17,7 +17,7 @@ public class Absa_Idirect extends WebDr {
     }
 
 /**Mvuleni commented on this code**/
-/**Push to Github now from IntelliJghAdds**/
+/**Push to Github now from IntelliJghAcddds**/
 
     String sCampaignType = this.getValue("CampaignType");
     String sStuffIndicator = this.getValue("StuffIndicator");
