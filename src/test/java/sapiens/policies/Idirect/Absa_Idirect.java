@@ -487,12 +487,15 @@ public class Absa_Idirect extends WebDr {
                 selectValueFromDropdown("drpDwnBuildingUsedFor", "text", buildingUsedFor, "Select Building Be Used For");
                 selectValueFromDropdown("drpDwnTypeOfBuilding", "text", typeOfBuilding, "Select Type Of Building");
                 selectValueFromDropdown("drpDwnTypeOfArea", "text", typeOfArea, "Select Type Of Area");
-                click("chkBoxIsBuildingOccupied", "Click Is Building Occupied CheckBox");
+                //click("chkBoxIsBuildingOccupied", "Click Is Building Occupied CheckBox");
+                Thread.sleep(5000);
                 setText("txtBoxOccupiedSinceDate", getCurrentDate(), "Enter Occupied Since Date");
+                Thread.sleep(5000);
                 if (PropertyOccupiedDay.equalsIgnoreCase("Y")) {
                     click("chkBoxIsPropOccupiedDuringDay", "Click is Prop Occupied DuringDay Label");
+                    setText("txtBoxUnoccupiedDays", unOccupiedDays, "Enter Number of Consecutive Unoccupied Days");
                 }
-                setText("txtBoxUnoccupiedDays", unOccupiedDays, "Enter Number of Consecutive Unoccupied Days");
+
                 if (ResidentialProperty.equalsIgnoreCase("Y")) {
                     click("chkBoxDoes_the_property_border_aXn_residential_property", "Click is Prop border checkbox Label");
                     selectValueFromDropdown("drpDwnSpecifyNonResidential", "text", xn_residental_property, "Selectedpecify xn residental property");

@@ -150,7 +150,7 @@ public class Absa_Idirect_POM {
         Idirect_POM.put("drpDwnTypeOfArea", "XPATH|//select[@id='areaABSAVO']");//What type of area is the building located in? Dropdown
         Idirect_POM.put("chkBoxIsBuildingOccupied", "XPATH|//label[@id='isBuildingOccupiedLabel']");//Is the building occupied? Checkbox
         Idirect_POM.put("txtBoxOccupiedSinceDate", "XPATH|//input[@id='occupiedSinceDate']");//Occupied Since Date TextBox
-        Idirect_POM.put("chkBoxIsPropOccupiedDuringDay", "XPATH|//label[normalize-space()='Is the property occupied during the day?']");
+        Idirect_POM.put("chkBoxIsPropOccupiedDuringDay", "XPATH|//label[@id='isPropOccupiedDuringDayLabel']");
         Idirect_POM.put("txtBoxUnoccupiedDays", "XPATH|//input[@id='noOfConsUnoccupiedDays']");//Number of consecutive unoccupied days TextBox
         Idirect_POM.put("drpDwnWallConstruction", "XPATH|//select[@id='constructionTypeVO']");//Wall construction Dropdown
         Idirect_POM.put("drpDwnRoofConstruction", "XPATH|//select[@id='roofMaterialVO']");//Roof construction Dropdown
